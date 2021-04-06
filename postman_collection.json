@@ -1,0 +1,472 @@
+{
+	"info": {
+		"_postman_id": "805823d4-6775-4762-84c3-e2ae900a5cb2",
+		"name": "category_product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "create category 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"categoryName\" : \"book\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/category/create?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"category",
+								"create"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create category 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"categoryName\" : \"smartphone\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/category/create?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"category",
+								"create"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create category 3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"categoryName\" : \"watch\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/category/create?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"category",
+								"create"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create category 4",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"categoryName\" : \"laptop\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/category/create?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"category",
+								"create"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "read categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/category/read?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"category",
+								"read"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update category",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"categoryId\" : \"606c7f7051fa555a6c2c7fbe\",\n    \"newName\" : \"smart-phone\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/category/update?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"category",
+								"update"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete category",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"categoryId\" : \"606c7f4b51fa555a6c2c7fbd\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/category/delete?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"category",
+								"delete"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "create product 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"productName\" : \"dell xps\",\n    \"categoryId\" : \"606c7fda51fa555a6c2c7fc2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/product/create?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"product",
+								"create"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create product 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"productName\" : \"moto g4\",\n    \"categoryId\" : \"606c7f7051fa555a6c2c7fbe\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/product/create?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"product",
+								"create"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "read all products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/product/read?apikey=e05bd741-0102-4221-8002-2c878e66144e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"product",
+								"read"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "read all products by category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/product/read?apikey=e05bd741-0102-4221-8002-2c878e66144e&category=laptop",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"product",
+								"read"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								},
+								{
+									"key": "category",
+									"value": "laptop"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update product",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"productId\" : \"606c81c951fa555a6c2c7fc5\",\n    \"newName\" : \"moto g5 plus\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/product/update?apikey=e05bd741-0102-4221-8002-2c878e66144e&category=laptop",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"product",
+								"update"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								},
+								{
+									"key": "category",
+									"value": "laptop"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete product",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"productId\" : \"606c81c951fa555a6c2c7fc5\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/product/delete?apikey=e05bd741-0102-4221-8002-2c878e66144e&category=laptop",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"product",
+								"delete"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": "e05bd741-0102-4221-8002-2c878e66144e"
+								},
+								{
+									"key": "category",
+									"value": "laptop"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
